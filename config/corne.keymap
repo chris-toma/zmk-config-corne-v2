@@ -75,9 +75,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                     &kp W                       &kp E                   &kp R                       &kp T        &kp Y    &kp U                         &kp I                     &kp O                         &kp P                          &none
-&none  &shift_left A LEFT_SHIFT  &homey_left S LEFT_CONTROL  &homey_left D LEFT_ALT  &homey_left F LEFT_COMMAND  &kp G        &kp H    &homey_right J RIGHT_COMMAND  &homey_right K RIGHT_ALT  &homey_right L RIGHT_CONTROL  &shift_right SEMI RIGHT_SHIFT  &none
-&none  &kp Z                     &kp X                       &kp C                   &kp V                       &kp B        &kp N    &kp M                         &kp COMMA                 &kp DOT                       &kp FSLH                       &none
+&none  &kp Q                     &kp W                       &kp E                   &kp R                       &kp T        &kp Y    &kp U                         &kp I                     &kp O                         &kp P                               &none
+&none  &shift_left LEFT_SHIFT A  &homey_left LEFT_CONTROL S  &homey_left LEFT_ALT D  &homey_left LEFT_COMMAND F  &kp G        &kp H    &homey_right RIGHT_COMMAND J  &homey_right RIGHT_ALT K  &homey_right RIGHT_CONTROL L  &shift_right RIGHT_SHIFT SEMICOLON  &none
+&none  &kp Z                     &kp X                       &kp C                   &kp V                       &kp B        &kp N    &kp M                         &kp COMMA                 &kp DOT                       &kp FSLH                            &none
                                                              &lt 3 LEFT_COMMAND      &lt 1 ESCAPE                &kp SPACE    &kp RET  &lt 2 SPACE                   &kp RALT
             >;
         };
