@@ -92,10 +92,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp CAPSLOCK  &kp C_PREV            &kp C_PLAY_PAUSE      &kp C_NEXT  &none     &none     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp BACKSPACE  &none
-&none  &kp TAB       &caps_word            &kp LOCKING_CAPS      &kp CAPS    &none     &kp LEFT  &kp DOWN    &kp UP             &kp RIGHT        &kp ENTER      &trans
-&none  &kp GRAVE     &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans    &trans    &trans      &trans             &trans           &trans         &trans
-                                           &trans                &trans      &trans    &trans    &trans      &trans
+&none  &caps_word  &kp C_PREV            &kp C_PLAY_PAUSE      &kp C_NEXT  &none     &none     &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp BACKSPACE  &none
+&none  &kp TAB     &none                 &none                 &none       &none     &kp LEFT  &kp DOWN    &kp UP             &kp RIGHT        &kp ENTER      &trans
+&none  &kp GRAVE   &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans      &trans    &trans    &trans      &trans             &trans           &trans         &trans
+                                         &trans                &trans      &trans    &trans    &trans      &trans
             >;
         };
 
